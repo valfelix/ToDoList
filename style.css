@@ -1,0 +1,35 @@
+body {
+    margin: 20px auto;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} 
+
+ul li{
+    list-style:none;
+    text-decoration:none;
+    color:#000;
+    background: rgba(255, 255, 0, 0.42);
+    font-family: 'Indie Flower', cursive;
+    display:block;
+    height:10em;
+    width:10em;
+    padding:1em;
+    margin:1em;
+    box-shadow: 8px 5px 5px gray;
+}
+
+ul li:nth-child(even){
+    transform:rotate(4deg);
+}
+
+ul li:nth-child(odd){
+    transform:rotate(-3deg);
+}
+
+li button {
+    margin: 10px;
+}  
